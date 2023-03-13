@@ -1,22 +1,91 @@
+.main-div {
+  background: #03484d;
+ 
+  
+  
+
+}
+.logo-img {
+  width: 87px;
+  height: 23px;
+}
+.logo-text {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+  margin-left: 0.1rem;
+}
+.input-divs {
+
+  background-color: #ffffff;
+  border-radius: 6px;
+  
+  width: 534px;
+  height: 39px;
+  margin-top: 0.9rem;
+  margin-left: 20rem;
+}
+.line-img {
+  margin-left: 2rem;
+}
+.login-icon{
+    width: 16px;
+    height: 6px;
+}
+select {
+  /* height: 36px; */
+  padding: 0 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  background-color: #fff;
+  color: #555;
+  font-size: 14px;
+}
+
+input[type="text"] {
+  /* height: 36px; */
+  padding: 0 10px;
+  
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #fff;
+  color: #555;
+  font-size: 14px;
+}
+.call-us{
+    font-family: "Roboto", sans-serif;
+    font-size: 9px;
+    color:#fff ;
+}
+.mobile-icon{
+    width: 19px;
+    height: 16px;
+    margin-right: 20rem;
+}
+.mbl-number{
+    color:#fff ;
+    font-family: "Roboto", sans-serif;
+}
+.cart-icon{
+    color:#fff ;
+    width: 22px;
+    height: 15px;
+}
+.love-icon{
+    width: 20px;
+    height: 18px;
+    margin: 0.5rem;
+}
+.cart-name{
+    color:#fff ;
+    font-size: 15px;
+}
+  @media only screen and (max-width: 760px) {
+  
 .main-div{
-    background: #03484D;
-  padding:10px;
+    width: 100%;
 }
-.logo-text{
-    font-family: 'Roboto', sans-serif;
-    color: #FFFFFF;
-    font-weight: 400;
-    font-size: 19px;
-    margin-left: 0.1rem;
     
-}
-.input-divs{
-    background-color: #FFFFFF;
-    border-radius: 6px;
-    margin-left: 2rem;
-    width: 534px;
-height: 39px;
-}
-.line-img{
-    margin-left: 2rem;
-}
+  }
