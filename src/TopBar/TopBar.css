@@ -1,0 +1,22 @@
+.main-div{
+    background: #03484D;
+  padding:10px;
+}
+.logo-text{
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 19px;
+    margin-left: 0.1rem;
+    
+}
+.input-divs{
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    margin-left: 2rem;
+    width: 534px;
+height: 39px;
+}
+.line-img{
+    margin-left: 2rem;
+}
