@@ -7,68 +7,83 @@ import login from "../Assests/Vector.png";
 import love from "../Assests/Vector (1).png";
 
 import { FiShoppingCart } from "react-icons/fi";
+import { Container } from "react-bootstrap";
 
 export default function TopBar() {
   return (
+    // <div className="container-fluid px-0">
+
+    //   <div className="main-div">
+    //     <section className="d-flex">
+    //       <div className="d-flex">
+    //         <img src={logo} alt="logo" className="logo-img"></img>
+
+    //         <h6 className="logo-text">store</h6>
+    //       </div>
+
+    //       <div className="input-divs">
+
+    //         <div className="d-flex">
+    //           <select>
+    //             <option value="volvo">All categories</option>
+    //             <option value="saab">All categories</option>
+    //           </select>
+
+    //           <img src={line} alt="input-line" className="line-img"></img>
+    //         </div>
+
+    //       </div>
+    //     </section>
+
+    //     <section className="d-flex justify-content-between align-items-center">
+    //       <div className="NavPara">
+    //         <p>Call Us Now</p>
+    //         <div className="d-flex">
+    //           <img src={mobile} width={18} height={18}></img>
+    //           <p>+011 5827918</p>
+    //         </div>
+    //         <p>Sign In</p>
+    //       </div>
+    //       <div className="d-flex align-items-center justify-content-between cartsbar">
+    //         <img src={love}></img>
+    //         <img src={love}></img>
+    //         <div className="d-flex align-items-center justify-content-center">
+    //         <img src={love}></img>
+    //         <p className="cartsbarPara">Cart</p>
+    //         </div>
+    //       </div>
+    //     </section>
+    //   </div>
+    //   {/* parent component of topbar ends here */}
+    // </div>
+
     <>
-      {/* parent component of topbar start here */}
-      <nav className="d-flex justify-content-between main-div container-fluid">
-        {/* image section and input div start here  */}
+      <Container fluid className="main-div">
+        <div className="d-flex flex-row ">
+          <img src={logo} alt="logo" className="logo-img"></img>
 
-        <section className="d-flex">
-          <div className="d-flex">
-            <img src={logo} alt="logo" className="logo-img"></img>
+          <p className="logo-text">store</p>
+        </div>
 
-            <h6 className="logo-text">store</h6>
-          </div>
-
-          {/* input div start here */}
-          <div className="input-divs">
-            {/* select div starts here */}
+        <section className="d-flex justify-content-between align-items-center">
+          <div className="NavPara">
+            <p className="call">Call Us Now</p>
             <div className="d-flex">
-              <select>
-                <option value="volvo">All categories</option>
-                <option value="saab">All categories</option>
-              </select>
-
-              {/* line-img */}
-              <img src={line} alt="input-line" className="line-img"></img>
+              <img src={mobile} width={18} height={18}></img>
+              <p>+011 5827918</p>
             </div>
-            {/* select div ends here */}
+            <p>Sign In</p>
           </div>
-        </section>
-        {/* image section and input div ends here  */}
-
-        {/* 2nd section starts here */}
-
-        <section className="d-flex flex-row justify-content-between ">
-          {/* second section icons start */}
-          <div className="d-flex flex-column">
-            {/* first text */}
-
-            <p className="call-us">Call Us Now</p>
-
-            <div className="d-flex justify-content-center">
-              <img src={mobile} alt="mobile-icon" className="mobile-icon"></img>
-              <p className="mbl-number">+011 5827918</p>
-            </div>
-          </div>
-
-          <div className="d-flex justify-content-evenly">
-            <img src={login} alt="" className="login-icon"></img>
-
-            <img src={love} alt="" className="love-icon"></img>
-
-            {/* cart icon and cat name */}
-            <div className="d-flex justify-content-end">
-              <FiShoppingCart className="cart-icon" />
-
-              <p className="cart-name">Cart</p>
+          <div className="d-flex align-items-center justify-content-between cartsbar">
+            <img src={love}></img>
+            <img src={love}></img>
+            <div className="d-flex align-items-center justify-content-center">
+              <img src={love}></img>
+              <p className="cartsbarPara">Cart</p>
             </div>
           </div>
         </section>
-      </nav>
-      {/* parent component of topbar ends here */}
+      </Container>
     </>
   );
 }

@@ -1,38 +1,41 @@
 .main-div {
-  background: #03484d;
- 
-  
-  
+  background-color: #03484d;
 
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .logo-img {
   width: 87px;
   height: 23px;
+  margin-top: 1rem;
+  padding-bottom: 4px;
 }
-.logo-text {
+.logo-text{
   font-family: "Roboto", sans-serif;
   color: #ffffff;
   font-weight: 400;
   font-size: 19px;
   line-height: 24px;
   margin-left: 0.1rem;
+  margin-top: 0.7rem;
 }
 .input-divs {
-
   background-color: #ffffff;
   border-radius: 6px;
-  
+
   width: 534px;
   height: 39px;
   margin-top: 0.9rem;
-  margin-left: 20rem;
+  margin-left: 8rem;
 }
 .line-img {
   margin-left: 2rem;
 }
-.login-icon{
-    width: 16px;
-    height: 6px;
+.login-icon {
+  width: 16px;
+  height: 6px;
 }
 select {
   /* height: 36px; */
@@ -47,45 +50,88 @@ select {
 input[type="text"] {
   /* height: 36px; */
   padding: 0 10px;
-  
+
   border: none;
   border-radius: 0 5px 5px 0;
   background-color: #fff;
   color: #555;
   font-size: 14px;
 }
-.call-us{
-    font-family: "Roboto", sans-serif;
-    font-size: 9px;
-    color:#fff ;
+.call-us {
+  font-family: "Roboto", sans-serif;
+  font-size: 9px;
+  color: #fff;
+  margin-top: 0.3rem;
 }
-.mobile-icon{
-    width: 19px;
-    height: 16px;
-    margin-right: 20rem;
+.mobile-icon {
+  width: 19px;
+  height: 16px;
+  margin-right: 20rem;
+  margin-top: -1rem;
 }
-.mbl-number{
-    color:#fff ;
-    font-family: "Roboto", sans-serif;
+.mbl-number {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
 }
-.cart-icon{
-    color:#fff ;
-    width: 22px;
-    height: 15px;
+.cart-icon {
+  color: #fff;
+  width: 22px;
+  height: 15px;
 }
-.love-icon{
-    width: 20px;
-    height: 18px;
-    margin: 0.5rem;
+.love-icon {
+  width: 20px;
+  height: 18px;
+  margin: 0.5rem;
 }
-.cart-name{
-    color:#fff ;
-    font-size: 15px;
+.cart-name {
+  color: #fff;
+  font-size: 15px;
 }
-  @media only screen and (max-width: 760px) {
-  
-.main-div{
-    width: 100%;
-}
-    
+@media only screen and (max-width: 768px) {
+
+  .input-divs{
+    width: 250px;
+    height: 39px;
   }
+.logo-img{
+    width: 47px;
+    height: 18px;
+}
+  .logo-text {
+    font-size: 0.6rem;
+  }
+
+
+  .NavPara{
+    margin-right: 7rem;
+  
+    
+}
+.call{
+    font-size: 2px;
+}
+
+}
+.NavPara{
+    margin-right: 5rem;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+    
+}
+.cartsbar{
+    margin-right: 8rem;
+}
+.cartsbar img{
+    margin-right: 20px;
+}
+.cartsbarPara{
+    color: #ffffff;
+    margin-top: 10px;
+}
+.NavPara p {
+  margin: 0;
+  padding-bottom: 3px;
+  font-size: 14px;
+  color: white;
+}
