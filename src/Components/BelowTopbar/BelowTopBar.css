@@ -1,0 +1,75 @@
+.mains-top-bar{
+  width: 100%;
+  padding: 12px 0;
+  margin-bottom: 14px;
+  background-color: #0E3B3E;    
+}
+.hamburger-menu{
+  margin-left: 2rem;
+ 
+    color:white;
+}
+.menu-items {
+ 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.br-text{
+  font-size: 17.2px;
+  margin-left: 1rem;
+}
+.li-texts{
+  margin-left:3rem;
+}
+  ul{
+    display: inline-block;
+   
+  }
+  .menu-items li {
+    display: inline-block;
+  margin-right: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+    
+  }
+
+  li a{
+   
+    color:white;
+    text-decoration: none;
+  }
+
+  .socials{
+  padding-right: 3rem;
+ 
+  }
+  .fb-icons{
+    color:white;
+    width: 20px;
+    height: 22px;
+    margin-right: 8px;
+   
+  
+  }
+  .tw-icons{
+    color:white;
+    width: 20px;
+    height: 22px;
+    margin-right: 8px;
+  }
+  .li-icons{
+    color:white;
+    width: 20px;
+    height: 22px;
+    margin-right: 8px;
+  }
+  .insta-icons{
+    color:white;
+    width: 20px;
+    height: 22px;
+    margin-right: 8px;
+  }
+
+ 

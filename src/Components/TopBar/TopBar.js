@@ -1,14 +1,14 @@
 import React from "react";
-import logo from "../Assests/Vector 1.png";
+import logo from "../../Assests/Vector 1.png";
 import "./TopBar.css";
-import line from "../Assests/Line 7.png";
-import mobile from "../Assests/XMLID_792_.png";
-import login from "../Assests/Vector.png";
-import love from "../Assests/Vector (1).png";
+import line from "../../Assests/Line 7.png";
+import mobile from "../../Assests/XMLID_792_.png";
+import login from "../../Assests/Vector.png";
+import love from "../../Assests/Vector (1).png";
 
 import { FiShoppingCart } from "react-icons/fi";
 import { Container } from "react-bootstrap";
-
+import { BiUser } from "react-icons/bi";
 export default function TopBar() {
   return (
     // <div className="container-fluid px-0">
@@ -75,10 +75,11 @@ export default function TopBar() {
             <p>Sign In</p>
           </div>
           <div className="d-flex align-items-center justify-content-between cartsbar">
-            <img src={love}></img>
+            {/* <img src={love}></img> */}
+            <span><BiUser/></span>
             <img src={love}></img>
             <div className="d-flex align-items-center justify-content-center">
-              <img src={love}></img>
+              <span><FiShoppingCart/></span>
               <p className="cartsbarPara">Cart</p>
             </div>
           </div>
