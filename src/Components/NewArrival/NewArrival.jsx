@@ -4,7 +4,7 @@ export default function NewArrival() {
   return (
     <div>
         
-<h4> <span className='arrive-span'>New </span> Arrival </h4>
+<h4 className='new-arrive'> <span className='arrive-span'>New </span> Arrival </h4>
 
     </div>
   )
