@@ -1,7 +1,22 @@
 .arrive-span{
     color:#00CAD7;
+    font-family: "Roboto", sans-serif;
+    margin-left: 3rem;
+   
+  
 }
 .new-arrive{
     margin-left: 20rem;
     margin-top: 2rem;
+}
+.cont-div-new{
+    margin-top:3rem;
+    margin-bottom: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.header-arrive{
+    font-size: 36px;
+    margin-left:5rem;
+  
 }

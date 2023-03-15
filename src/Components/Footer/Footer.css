@@ -1,0 +1,27 @@
+/* footer styles */
+.footers {
+    background: #393939;
+    min-height: 310px;
+  
+    position: relative;
+    padding-top: 20px;
+  }
+  .ashText {
+    color: white;
+    font-weight: 400;
+  }
+  .call-now{
+    color: #00CAD7;
+    margin-top: 2rem;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  @media (max-width: 700px) {
+    .social {
+      margin-bottom: 50px;
+    }
+    .words {
+      font-size: 0.7rem;
+    }
+  }
+  

@@ -4,6 +4,7 @@ import BelowTopBar from '../BelowTopbar/BelowTopBar'
 import CarouselItem from '../Carousel/Carousel'
 import Items from '../Items/Items'
 import NewArrival from '../NewArrival/NewArrival'
+import Footer from '../Footer/Footer.jsx'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
 <CarouselItem/>
 <Items/>
 <NewArrival/>
+<Footer></Footer>
 
     </div>
   )

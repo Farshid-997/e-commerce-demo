@@ -4,7 +4,7 @@ import "./ItemCard.css"
 
 import "swiper/css";
 export default function ItemCard({items}) {
-    console.log(items)
+   
   return (
     <>
     <div >
