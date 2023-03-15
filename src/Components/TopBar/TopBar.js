@@ -7,7 +7,7 @@ import login from "../../Assests/Vector.png";
 import love from "../../Assests/Vector (1).png";
 
 import { FiShoppingCart } from "react-icons/fi";
-import { Container } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import { BiUser } from "react-icons/bi";
 export default function TopBar() {
   return (
@@ -65,25 +65,30 @@ export default function TopBar() {
           <p className="logo-text">store</p>
         </div>
 
-        <section className="d-flex justify-content-between align-items-center">
-          <div className="NavPara">
-            <p className="call">Call Us Now</p>
-            <div className="d-flex">
-              <img src={mobile} width={18} height={18}></img>
-              <p>+011 5827918</p>
+        <Row>
+          <Col>
+            <div className="NavPara">
+              <p className="call">Call Us Now</p>
+              <div className="d-flex">
+                <img src={mobile} width={18} height={18}></img>
+                <p>+011 5827918</p>
+              </div>
+              <p>Sign In</p>
             </div>
-            <p>Sign In</p>
-          </div>
-          <div className="d-flex align-items-center justify-content-between cartsbar">
-            {/* <img src={love}></img> */}
-            <span><BiUser/></span>
-            <img src={love}></img>
-            <div className="d-flex align-items-center justify-content-center">
-              <span><FiShoppingCart/></span>
-              <p className="cartsbarPara">Cart</p>
+          </Col>
+
+          <Col>
+            <div className="d-flex align-items-center justify-content-between cartsbar">
+              {/* <img src={love}></img> */}
+              <BiUser className="user-icon" />
+              <img src={love}></img>
+              <div className="d-flex align-items-center justify-content-center">
+                <FiShoppingCart className="cart-icon" />
+                <p className="cartsbarPara">Cart</p>
+              </div>
             </div>
-          </div>
-        </section>
+          </Col>
+        </Row>
       </Container>
     </>
   );

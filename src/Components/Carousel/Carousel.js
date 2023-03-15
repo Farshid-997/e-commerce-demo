@@ -22,6 +22,7 @@ I am not a product of my circumstances. I am a product of my decisions.</p>
     <button>Learn More</button>
   </div>
         </Carousel.Caption>
+
       </Carousel.Item>
       <Carousel.Item>
         <img
@@ -30,13 +31,13 @@ I am not a product of my circumstances. I am a product of my decisions.</p>
           alt="Second slide"
         />
 
-        <Carousel.Caption>
+<Carousel.Caption className="custom-caption">
         <div className="caption-content">
-        <h3>Shop <span className='span-head'>Computer</span></h3>
+    <h3 className='shop'>Shop <span className='span-head'>Computer</span></h3>
     <h3 className='span-head'>& experience</h3>
     <p>You cannot inspect quality into the product; it is already there.
 I am not a product of my circumstances. I am a product of my decisions.</p>
-    <button >View More</button>
+    <button>Learn More</button>
   </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -46,16 +47,16 @@ I am not a product of my circumstances. I am a product of my decisions.</p>
           src={slider}
           alt="Third slide"
         />
-
-        <Carousel.Caption>
+  <Carousel.Caption className="custom-caption">
         <div className="caption-content">
-        <h3>Shop <span className='span-head'>Computer</span></h3>
+    <h3 className='shop'>Shop <span className='span-head'>Computer</span></h3>
     <h3 className='span-head'>& experience</h3>
     <p>You cannot inspect quality into the product; it is already there.
 I am not a product of my circumstances. I am a product of my decisions.</p>
     <button>Learn More</button>
   </div>
         </Carousel.Caption>
+
       </Carousel.Item>
     </Carousel>
 

@@ -1,57 +1,69 @@
 .custom-caption {
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 30px;
-    /* background-color: rgba(0, 0, 0, 0.6); */
-    text-align: left;
-  }
-  .main-carousel-div{
-    margin-top: -1.2rem;
-  }
-  .caption-content {
-    max-width: 600px;
-    margin-left:4rem;
-    margin-bottom: 12rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: flex-start;
-  }
-  
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 100px;
+  /* background-color: rgba(0, 0, 0, 0.6); */
+}
+.main-carousel-div {
+  margin-top: -1.2rem;
+}
+.caption-content {
+  /* max-width: 600px; */
+  margin-left: 4rem;
+  /* margin-bottom: 12rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
 
-  .caption-content p {
-    color: black;
-    margin: 0;
-    font-family: "Roboto", sans-serif;
-    
-  }
+.caption-content p {
+  color: black;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  text-transform: capitalize;
+}
 
-  .caption-content h3{
-    font-family: "Roboto", sans-serif;
-  }
-  
-  .span-head{
-    color:#0AAEB9;
-    font-size: 57px;
-    line-height: 53px;
-    font-weight: 400;
-  }
-  .caption-content button {
-    background-color: #14B1F0;
-    color: #000;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    margin-top: 10px;
-  }
-.shop{
-    color: #000;
-    font-size: 57px;
-    line-height: 53px;
-    font-weight: 400;
+.caption-content h3 {
+  font-family: "Roboto", sans-serif;
+}
+
+.span-head {
+  color: #0aaeb9;
+  font-size: 57px;
+  line-height: 53px;
+  font-weight: 400;
+}
+.caption-content button {
+  background-color: #14b1f0;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.shop {
+  color: #000;
+  font-size: 57px;
+  line-height: 53px;
+  font-weight: 400;
 }
 .carousel-control-prev,
 .carousel-control-next {
   display: none;
+}
+.carousel-indicators li {
+  background-color: #aa9393 !important;
+  border: 9px solid #aa9393 !important;
+  border-radius: 60px !important;
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+}
+.carousel-indicators .active {
+  background-color: #555;
 }
