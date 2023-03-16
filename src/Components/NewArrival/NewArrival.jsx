@@ -15,11 +15,11 @@ export default function NewArrival() {
   return (
     <>
     <h3 className='header-arrive'> <span className='arrive-span'>New</span>Arrival</h3>
-    <Container className='cont-div-new'>
+    <div className='cont-div-new'>
       {data.map((item) => (
         <NewArrivalProduct  key={item.id} item={item} />
       ))}
-    </Container>
+    </div>
     </>
    
   );
