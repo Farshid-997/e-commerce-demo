@@ -1,170 +1,76 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import logo from "../../Assests/Vector 1.png"
+import logo from "../../Assests/Vector 1.png";
 import "./Footer.css";
+import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import { AiOutlineTwitter } from "react-icons/ai";
 const Footer = () => {
   return (
     <Container fluid className="footers pb-5 ps-2 ">
       <Container className="text-secondary my-5 pt-3">
-       
-       
-
         <Row className="my-5 ms-2 words">
-          {/*  footer img */}
-          <Col xs={4} md={2} className="me-2">
-
-            <div>
-            <img src={logo} alt="" />
-
-            </div>
-           
-           <p className="call-now">Got questions? Call us 24/7!
-</p>
-           
-          </Col>
-
-
-
-
-
           <Col xs={4} md={2} className=" mx-3 pe-5">
             <Row>
               <Col xs={2} md={12}>
-                <p className="text-white fw-bolder fs-5">Products</p>
-              
-                  {" "}
-                  <p className="ashText">Unive Learning</p>
-             
-                {/* <NavLink to='/onboarding'> <p className='ashText'>Unive Onboarding</p></NavLink> */}
-               
-                  <p className="ashText">Unive Skill Assessments</p>
-               
+                <div>
+                  <img src={logo} alt="" />
+                </div>{" "}
+                <p className="call-now">Got questions? Call us 24/7!</p>
+                <p className="mobile-no">
+                  03 111 666 144 <br></br> 0317 1777015.
+                </p>
               </Col>
               <Col xs={3} md={12} className="d-none d-md-block text-white">
-                <p className="text-white fw-bolder fs-5">Plans</p>
-               
+                <p className="contact-info">Contact info</p>{" "}
+                <p className="sub-contact">Contact info info@winstore.pk</p>{" "}
+                <p className="social-icons">
                   {" "}
-                  <p className="ashText">For Individuals</p>
-             
-               
-                  {" "}
-                  <p className="ashText">For Enterprise</p>
-              
-              
-                  <p className="ashText">For Manpower as a Service</p>
-               
+                  <FaFacebookF className="fb-icons" />
+                  <AiOutlineTwitter className="tw-icons" />
+                  <FaLinkedinIn className="li-icons" />
+                  <FaInstagram className="insta-icons" />
+                </p>
               </Col>
             </Row>
-          </Col>
-
-          
-          <Col xs={5} md={12} className="d-block d-md-none text-white">
-            <p className="text-white fw-bolder fs-5">Plans</p>
-           
-              {" "}
-              <p className="ashText">For Individuals</p>
-          
-           
-              {" "}
-              <p className="ashText"> For Enterprise</p>
-          
-
-            
-              <p className="ashText">For Manpower as a Service</p>
-            
           </Col>
 
           <Col xs={4} md={2} className=" me-5 pe-2">
             <Row>
               <Col xs={12} className="mb-4">
-                <p className="text-white fw-bolder fs-5">Resources</p>
-               
-                  <p className="ashText">Unive Blog</p>
-               
-                {/* <NavLink to='/FAQ'>  <p className='ashText'>FAQ</p></NavLink> */}
-              </Col>
-              <Col xs={12} className="d-none d-md-block">
-             
-                  <p className="ashText">Become an instructor</p>
-               
-              
-                  <p className="ashText">Become a Contributor</p>
-               
+                <p className="trending">Trending</p>{" "}
+                <p className="subtext">Installments</p>
+                <p className="subtext">Electronics</p>
+                <p className="subtext">Grocery</p>
+                <p className="subtext">Health & Beauty</p>
+                <p className="subtext">Home Appliances</p>
+                <p className="subtext">Mobile Accessories</p>
               </Col>
             </Row>
           </Col>
-          <Col xs={5} md={12} className="d-block d-md-none text-white">
-            <p className="text-white fw-bolder fs-5">Legal</p>
-           
-              <p className="ashText">Privacy Policy</p>
-          
-            {/* <NavLink to='/privacy'><p className='ashText'>Cookie Settings</p></NavLink> */}
-           
-              <p className="ashText">Terms of Service</p>
-           
-           
-              {" "}
-              <p className="ashText"> Business Terms of Service</p>
-           
-          </Col>
-          <Col xs={4} className=" d-block d-md-none me-5 pe-4 ">
-            <p className="text-white fw-bolder fs-5">Contribute</p>
-          
-              <p className="ashText">Become an instructor</p>
-            
-          
-              <p className="ashText">Become a Contributor</p>
-         
-          </Col>
+
           <Col xs={2} className=" me-5 pe-5">
             <Row>
               <Col xs={12} className=" d-none d-md-block">
-                <p className="text-white fw-bolder fs-5">Legal</p>
-              
-                  <p className="ashText">Privacy Policy</p>
-              
-                {/* <NavLink to='/privacy'><p className='ashText'>Cookie Settings</p></NavLink> */}
-             
-                  <p className="ashText">Terms of Service</p>
-               
-              
-                  {" "}
-                  <p className="ashText">Business Terms of Service</p>
-              
-              </Col>
-              <Col xs={12} className="d-none d-md-block">
-                {/* <p className="text-white">About Us</p> */}
-                {/* <NavLink to="/our-team">
-                  {" "}
-                  <p className="ashText">Our Team</p>
-                </NavLink> */}
-               
-                  {" "}
-                  <p className="ashText">Careers</p>
-              
+                <p className="information">Information</p>
+                <p className="subtext">About Us</p>
+                <p className="subtext">Contact Us</p>{" "}
+                <p className="subtext">FAQs</p>
+                <p className="subtext">Shipping & Return</p>
+                <p className="subtext">Privacy policy</p>
+                <p className="subtext">Terms & Conditions</p>
               </Col>
             </Row>
           </Col>
           <Col xs={12} md={2} className="">
-            <p className="text-white fw-bolder fs-5">More</p>
-          
-              {" "}
-              <p className="ashText">Course Catalog</p>
-            
-          
-              {" "}
-              <p className="ashText">Scholarships</p>
-           
-          
-          
-              <p className="ashText">Contact Us</p>
-           
+            <p className="more">My Account</p>{" "}
+            <p className="subtext">Track Your Order</p>{" "}
+            <p className="subtext">Recently Viewed</p>
+            <p className="subtext">Wishlist</p>
+            <p className="subtext">Compare</p>
+            <p className="subtext">Become a Vendor</p>
           </Col>
         </Row>
-        <hr />
-       
       </Container>
-      
     </Container>
   );
 };

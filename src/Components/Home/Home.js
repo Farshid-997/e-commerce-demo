@@ -5,6 +5,7 @@ import CarouselItem from '../Carousel/Carousel'
 import Items from '../Items/Items'
 import NewArrival from '../NewArrival/NewArrival'
 import Footer from '../Footer/Footer.jsx'
+import BelowFooter from '../BelowFooter/BelowFooter'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
 <Items/>
 <NewArrival/>
 <Footer></Footer>
+<BelowFooter></BelowFooter>
 
     </div>
   )

@@ -16,6 +16,72 @@
     font-size: 18px;
     font-weight: 400;
   }
+  .mobile-no{
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+  }
+  .contact-info{
+    color: #00CAD7;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+  }
+  .sub-contact{
+    color:white;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+  }
+  .socials{
+    padding-right: 3rem;
+   
+    }
+    .fb-icons{
+      color:white;
+      width: 20px;
+      height: 22px;
+      margin-right: 8px;
+     
+    
+    }
+    .tw-icons{
+      color:white;
+      width: 20px;
+      height: 22px;
+      margin-right: 8px;
+    }
+    .li-icons{
+      color:white;
+      width: 20px;
+      height: 22px;
+      margin-right: 8px;
+    }
+    .insta-icons{
+      color:white;
+      width: 20px;
+      height: 22px;
+      margin-right: 8px;
+    }
+    .trending{
+      color: #00CAD7;
+      font-size: 17px;
+      font-family: "Roboto", sans-serif;
+    }
+    .subtext{
+      font-family: "Roboto", sans-serif;
+      color:white;
+      font-size: 14px;
+    }
+    .information{
+      color: #00CAD7;
+      font-size: 17px;
+      font-family: "Roboto", sans-serif;
+    }
+    .more{
+      color: #00CAD7;
+      font-size: 17px;
+      font-family: "Roboto", sans-serif;
+    }
   @media (max-width: 700px) {
     .social {
       margin-bottom: 50px;
