@@ -14,6 +14,7 @@ export default function NewArrival() {
 
   return (
     <>
+    <hr className='h-line'></hr>
     <h3 className='header-arrive'> <span className='arrive-span'>New</span>Arrival</h3>
     <div className='cont-div-new'>
       {data.map((item) => (

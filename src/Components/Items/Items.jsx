@@ -12,13 +12,13 @@ import "swiper/css";
 export default function Items() {
   const [categories, setCategories] = useState([]);
   useEffect(() => {
-    // api.unive.com.bd
+   
     fetch("https://fakestoreapi.com/products/categories")
       .then((res) => res.json())
       .then((data) => setCategories(data));
   }, []);
   return (
-    <Container className="main-cont">
+    <div className="main-cont">
       <Swiper
         pagination={{
           clickable: true,
@@ -67,13 +67,13 @@ export default function Items() {
         </SwiperSlide>
       </Swiper>
 
-      <div className="row g-4">
+      <div className="row ">
         {categories.map((items) => (
-          <div className="col-12 col-md-3 p-4">
+          <div className="col-12 col-md-3">
             <ItemCard items={items}></ItemCard>
           </div>
         ))}
       </div>
-    </Container>
+    </div>
   );
 }

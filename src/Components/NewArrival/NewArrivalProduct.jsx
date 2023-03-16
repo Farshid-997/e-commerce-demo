@@ -10,8 +10,8 @@ export default function NewArrivalProduct({ item }) {
         <p className="p-desc">{item.description.slice(0, 15)}</p>
 
         <Image src={item.image} alt="p-img" className="p-img" fluid/>
-        <div className="d-flex justify-content-between ps-2 pe-2">
-          <s>RS RS 60.000</s>
+        <div className="d-flex justify-content-between ">
+          <s className="p-price-one">RS RS 60.000</s>
           <p className="p-price">RS {item.price}</p>
         </div>
         <button className="add-cart-btn">Add to cart</button>

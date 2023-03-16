@@ -1,8 +1,11 @@
 .main-cont{
     background: linear-gradient(180deg, #F3EDC9 0%, rgba(255, 255, 255, 0) 100%);
-    
+    padding-left: 12rem;
+    padding-right: 12rem;
+   
 }
 .main-item-div{
     width:272px;
+  
    
 }
