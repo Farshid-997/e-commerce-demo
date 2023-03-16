@@ -15,7 +15,7 @@ export default function NewArrival() {
   return (
     <>
     <h3 className='header-arrive'> <span className='arrive-span'>New</span>Arrival</h3>
-    <Container className='d-flex justify-content-between align-items-center  cont-div-new' fluid>
+    <Container className='cont-div-new'>
       {data.map((item) => (
         <NewArrivalProduct  key={item.id} item={item} />
       ))}
